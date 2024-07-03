@@ -115,7 +115,8 @@ class _AddTextLayoutState extends State<AddTextLayout> {
                         fontStyle: value.fontStyle,
                       ),
                       autofocus: true,
-                      maxLines: 10,
+                      maxLines: 20,
+                      minLines: 2,
                     );
                   },
                 ),
@@ -259,7 +260,7 @@ class _AddTextLayoutState extends State<AddTextLayout> {
                   return Slider(
                     value: value.fontSize ?? 0,
                     min: 12,
-                    max: 52,
+                    max: 80,
                     onChanged: (fontSize) {
                       _valueListener.value = _valueListener.value.copyWith(
                         fontSize: fontSize,
