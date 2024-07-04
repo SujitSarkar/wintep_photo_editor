@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get_it/get_it.dart';
-import 'package:wintep_photo_editor/core/bloc/bloc_status.dart';
-import 'package:wintep_photo_editor/core/component/snackbar/info_snackbar.dart';
-import 'package:wintep_photo_editor/core/route/app_route_name.dart';
-import 'package:wintep_photo_editor/core/theme/app_color.dart';
-import 'package:wintep_photo_editor/module/seach_photo/presentation/cubit/search_cubit.dart';
-import 'package:wintep_photo_editor/module/seach_photo/repository/search_repository.dart';
+import 'package:zoom_text_editor/core/bloc/bloc_status.dart';
+import 'package:zoom_text_editor/core/component/snackbar/info_snackbar.dart';
+import 'package:zoom_text_editor/core/route/app_route_name.dart';
+import 'package:zoom_text_editor/core/theme/app_color.dart';
+import 'package:zoom_text_editor/module/seach_photo/presentation/cubit/search_cubit.dart';
+import 'package:zoom_text_editor/module/seach_photo/repository/search_repository.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:shimmer/shimmer.dart';
 

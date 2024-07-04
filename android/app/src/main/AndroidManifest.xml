@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wintep_photo_editor">
+    package="com.example.zoom_text_editor">
    <uses-permission android:name="android.permission.INTERNET"/>
    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
    <application
-        android:label="Wintep Photo Editor"
+        android:label="Zoom Text Editor"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:wintep_photo_editor/core/route/app_route.dart';
-import 'package:wintep_photo_editor/core/route/app_route_name.dart';
-import 'package:wintep_photo_editor/core/theme/app_theme.dart';
-import 'package:wintep_photo_editor/main_module.dart';
+import 'package:zoom_text_editor/core/route/app_route.dart';
+import 'package:zoom_text_editor/core/route/app_route_name.dart';
+import 'package:zoom_text_editor/core/theme/app_theme.dart';
+import 'package:zoom_text_editor/main_module.dart';
 
 void main() {
   MainModule.init();

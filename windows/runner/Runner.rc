@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "wintep_photo_editor" "\0"
+            VALUE "FileDescription", "zoom_text_editor" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "wintep_photo_editor" "\0"
+            VALUE "InternalName", "zoom_text_editor" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "wintep_photo_editor.exe" "\0"
-            VALUE "ProductName", "wintep_photo_editor" "\0"
+            VALUE "OriginalFilename", "zoom_text_editor.exe" "\0"
+            VALUE "ProductName", "zoom_text_editor" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

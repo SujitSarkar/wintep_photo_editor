@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:wintep_photo_editor/core/network/client_utils.dart';
-import 'package:wintep_photo_editor/module/home/model/collection/collection_model.dart';
-import 'package:wintep_photo_editor/module/home/model/photo/photo_model.dart';
-import 'package:wintep_photo_editor/module/home/repository/home_repository.dart';
+import 'package:zoom_text_editor/core/network/client_utils.dart';
+import 'package:zoom_text_editor/module/home/model/collection/collection_model.dart';
+import 'package:zoom_text_editor/module/home/model/photo/photo_model.dart';
+import 'package:zoom_text_editor/module/home/repository/home_repository.dart';
 
 class HomeRepositoryImpl extends HomeRepository {
   final Dio client;

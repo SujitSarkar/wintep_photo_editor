@@ -1,18 +1,19 @@
+// ignore_for_file: use_build_context_synchronously
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wintep_photo_editor/core/bloc/download_status.dart';
-import 'package:wintep_photo_editor/core/component/dialog/confirmation_dialog.dart';
-import 'package:wintep_photo_editor/core/component/dialog/loading_dialog.dart';
-import 'package:wintep_photo_editor/core/component/dialog/success_dialog.dart';
-import 'package:wintep_photo_editor/core/component/snackbar/info_snackbar.dart';
-import 'package:wintep_photo_editor/module/edit_photo/model/dragable_widget_child.dart';
-import 'package:wintep_photo_editor/module/edit_photo/presentation/cubit/edit_photo_cubit.dart';
-import 'package:wintep_photo_editor/module/edit_photo/presentation/pages/add_text_layout.dart';
-import 'package:wintep_photo_editor/module/edit_photo/presentation/widget/dragable_widget.dart';
-import 'package:wintep_photo_editor/module/edit_photo/presentation/widget/edit_photo_widget.dart';
-import 'package:wintep_photo_editor/module/edit_photo/presentation/widget/menu_icon_widget.dart';
-import 'package:wintep_photo_editor/module/home/model/photo/photo_model.dart';
+import 'package:zoom_text_editor/core/bloc/download_status.dart';
+import 'package:zoom_text_editor/core/component/dialog/confirmation_dialog.dart';
+import 'package:zoom_text_editor/core/component/dialog/loading_dialog.dart';
+import 'package:zoom_text_editor/core/component/dialog/success_dialog.dart';
+import 'package:zoom_text_editor/core/component/snackbar/info_snackbar.dart';
+import 'package:zoom_text_editor/module/edit_photo/model/dragable_widget_child.dart';
+import 'package:zoom_text_editor/module/edit_photo/presentation/cubit/edit_photo_cubit.dart';
+import 'package:zoom_text_editor/module/edit_photo/presentation/pages/add_text_layout.dart';
+import 'package:zoom_text_editor/module/edit_photo/presentation/widget/dragable_widget.dart';
+import 'package:zoom_text_editor/module/edit_photo/presentation/widget/edit_photo_widget.dart';
+import 'package:zoom_text_editor/module/edit_photo/presentation/widget/menu_icon_widget.dart';
+import 'package:zoom_text_editor/module/home/model/photo/photo_model.dart';
 import 'package:screenshot/screenshot.dart';
 
 class EditPhotoScreen extends StatelessWidget {
@@ -127,7 +128,6 @@ class _EditPhotoLayoutState extends State<EditPhotoLayout> {
                         delay: const Duration(milliseconds: 200),
                       );
                       if (!mounted) return;
-                      // ignore: use_build_context_synchronously
                       context.read<EditPhotoCubit>().downloadImage(image);
                     },
                     icon: CupertinoIcons.cloud_download,

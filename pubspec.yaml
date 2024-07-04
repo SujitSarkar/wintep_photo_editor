@@ -1,4 +1,4 @@
-name: wintep_photo_editor
+name: zoom_text_editor
 description: A new Flutter project.
 publish_to: 'none'
 version: 1.0.0+1
@@ -33,6 +33,11 @@ dev_dependencies:
   build_runner: ^2.2.1
   freezed: ^2.1.1
   json_serializable: ^6.4.0
+  flutter_launcher_icons: "^0.13.1"
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/app_logo.png"
 
 # The following section is specific to Flutter packages.
 flutter:

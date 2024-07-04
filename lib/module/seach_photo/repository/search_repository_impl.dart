@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:wintep_photo_editor/core/network/client_utils.dart';
-import 'package:wintep_photo_editor/module/home/model/photo/photo_model.dart';
-import 'package:wintep_photo_editor/module/seach_photo/repository/search_repository.dart';
+import 'package:zoom_text_editor/core/network/client_utils.dart';
+import 'package:zoom_text_editor/module/home/model/photo/photo_model.dart';
+import 'package:zoom_text_editor/module/seach_photo/repository/search_repository.dart';
 
 class SearchRepositoryImpl extends SearchRepository {
   final Dio client;

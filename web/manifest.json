@@ -1,6 +1,6 @@
 {
-    "name": "wintep_photo_editor",
-    "short_name": "wintep_photo_editor",
+    "name": "zoom_text_editor",
+    "short_name": "zoom_text_editor",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

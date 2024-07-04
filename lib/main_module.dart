@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:wintep_photo_editor/core/network/client.dart';
-import 'package:wintep_photo_editor/module/home/repository/home_repository.dart';
-import 'package:wintep_photo_editor/module/home/repository/home_repository_impl.dart';
-import 'package:wintep_photo_editor/module/seach_photo/repository/search_repository.dart';
-import 'package:wintep_photo_editor/module/seach_photo/repository/search_repository_impl.dart';
+import 'package:zoom_text_editor/core/network/client.dart';
+import 'package:zoom_text_editor/module/home/repository/home_repository.dart';
+import 'package:zoom_text_editor/module/home/repository/home_repository_impl.dart';
+import 'package:zoom_text_editor/module/seach_photo/repository/search_repository.dart';
+import 'package:zoom_text_editor/module/seach_photo/repository/search_repository_impl.dart';
 
 class MainModule {
   /// Main Module for initialize GetIt (DI)

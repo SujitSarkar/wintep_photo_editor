@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:wintep_photo_editor/core/bloc/bloc_status.dart';
-import 'package:wintep_photo_editor/module/home/model/photo/photo_model.dart';
-import 'package:wintep_photo_editor/module/seach_photo/repository/search_repository.dart';
+import 'package:zoom_text_editor/core/bloc/bloc_status.dart';
+import 'package:zoom_text_editor/module/home/model/photo/photo_model.dart';
+import 'package:zoom_text_editor/module/seach_photo/repository/search_repository.dart';
 
 part 'search_state.dart';
 part 'search_cubit.freezed.dart';

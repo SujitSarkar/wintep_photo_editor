@@ -1,4 +1,4 @@
-package com.example.wintep_photo_editor
+package com.example.zoom_text_editor
 
 import io.flutter.embedding.android.FlutterActivity
 

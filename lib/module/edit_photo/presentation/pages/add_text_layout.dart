@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wintep_photo_editor/module/edit_photo/model/dragable_widget_child.dart';
+import 'package:zoom_text_editor/module/edit_photo/model/dragable_widget_child.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 Future<T?> addText<T>(

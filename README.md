@@ -1,4 +1,4 @@
-# wintep_photo_editor
+# zoom_text_editor
 
 A new Flutter project.
 

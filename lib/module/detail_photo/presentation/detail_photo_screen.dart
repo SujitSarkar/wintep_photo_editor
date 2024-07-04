@@ -2,15 +2,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wintep_photo_editor/core/bloc/download_status.dart';
-import 'package:wintep_photo_editor/core/component/dialog/loading_dialog.dart';
-import 'package:wintep_photo_editor/core/component/dialog/success_dialog.dart';
-import 'package:wintep_photo_editor/core/component/snackbar/info_snackbar.dart';
-import 'package:wintep_photo_editor/core/extension/string_extension.dart';
-import 'package:wintep_photo_editor/core/route/app_route_name.dart';
-import 'package:wintep_photo_editor/core/theme/app_color.dart';
-import 'package:wintep_photo_editor/module/detail_photo/presentation/cubit/detail_photo_cubit.dart';
-import 'package:wintep_photo_editor/module/home/model/photo/photo_model.dart';
+import 'package:zoom_text_editor/core/bloc/download_status.dart';
+import 'package:zoom_text_editor/core/component/dialog/loading_dialog.dart';
+import 'package:zoom_text_editor/core/component/dialog/success_dialog.dart';
+import 'package:zoom_text_editor/core/component/snackbar/info_snackbar.dart';
+import 'package:zoom_text_editor/core/extension/string_extension.dart';
+import 'package:zoom_text_editor/core/route/app_route_name.dart';
+import 'package:zoom_text_editor/core/theme/app_color.dart';
+import 'package:zoom_text_editor/module/detail_photo/presentation/cubit/detail_photo_cubit.dart';
+import 'package:zoom_text_editor/module/home/model/photo/photo_model.dart';
 
 class DetailPhotoScreen extends StatelessWidget {
   const DetailPhotoScreen({super.key});

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:wintep_photo_editor/module/detail_photo/presentation/detail_photo_screen.dart';
-import 'package:wintep_photo_editor/module/edit_photo/presentation/edit_photo_screen.dart';
-import 'package:wintep_photo_editor/module/get_started/presentation/get_started_screen.dart';
-import 'package:wintep_photo_editor/module/home/presentation/home_screen.dart';
-import 'package:wintep_photo_editor/module/seach_photo/presentation/serach_screen.dart';
+import 'package:zoom_text_editor/module/detail_photo/presentation/detail_photo_screen.dart';
+import 'package:zoom_text_editor/module/edit_photo/presentation/edit_photo_screen.dart';
+import 'package:zoom_text_editor/module/get_started/presentation/get_started_screen.dart';
+import 'package:zoom_text_editor/module/home/presentation/home_screen.dart';
+import 'package:zoom_text_editor/module/seach_photo/presentation/serach_screen.dart';
 
 import '/core/route/app_route_name.dart';
 

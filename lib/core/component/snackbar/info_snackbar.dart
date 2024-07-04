@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wintep_photo_editor/core/theme/app_color.dart';
+import 'package:zoom_text_editor/core/theme/app_color.dart';
 
 void showInfoSnackBar(BuildContext context, String text) {
   ScaffoldMessenger.of(context).showSnackBar(
